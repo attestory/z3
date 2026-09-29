@@ -4,6 +4,11 @@ This is a fork of [Z3Prover/z3](https://github.com/Z3Prover/z3), taken on
 2026-09-17 by [attestory](https://github.com/attestory). Upstream is the
 source; this file is the only attestory-authored file in the tree.
 
+**Context.** This fork pins Z3 for the symbolic admissible-history work
+described below and gives attestory a place for a local patch if one is ever
+needed. It is governed by hand, with no ruleset; its ledger is upstream git
+history.
+
 **The reason.** attestory builds evidence-first governed delivery: a system
 whose state is a set of admissible histories that evidence narrows. Deciding
 what is still admissible is a symbolic problem, and Z3 is the solver we
