@@ -1,0 +1,31 @@
+{
+  "agents": {
+    "entry": "rendered",
+    "notes": "docs/agents.md",
+    "vendors": [
+      "claude",
+      "codex"
+    ]
+  },
+  "commands": {},
+  "fork_of": "Z3Prover/z3",
+  "governed_by": "hand",
+  "kind": "fork",
+  "lanes": [],
+  "laws": [],
+  "ledger": "upstream git history",
+  "merge_queue": false,
+  "name": "z3",
+  "owner": {
+    "steward_topic": "factory"
+  },
+  "pin": {
+    "revision": "3581a93cbc041dfb99cd10f51cbda605ab7eba73",
+    "sha256": "2b506776333bfe653c0aa37def5d61a7b3da8667d6d0955fbf96f286cd29f2fb"
+  },
+  "purpose": "a pinned solver the core may integrate directly: the systemmodel's admissible histories are a symbolic problem, and a fork lets a core build pin one exact revision and carry local patches instead of depending on a moving upstream release",
+  "remit": false,
+  "schema": "factory/v1",
+  "signing": "forge",
+  "stacks": []
+}
