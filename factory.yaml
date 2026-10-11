@@ -20,8 +20,8 @@
     "steward_topic": "factory"
   },
   "pin": {
-    "revision": "3581a93cbc041dfb99cd10f51cbda605ab7eba73",
-    "sha256": "2b506776333bfe653c0aa37def5d61a7b3da8667d6d0955fbf96f286cd29f2fb"
+    "revision": "d7c8f36ff92c26d38ed4fa4c6e3ead13828e9d01",
+    "sha256": "16190c25406664b94086e44a1bafcee942597e9a3bc99368dfd048c4590efce5"
   },
   "purpose": "a pinned solver the core may integrate directly: the systemmodel's admissible histories are a symbolic problem, and a fork lets a core build pin one exact revision and carry local patches instead of depending on a moving upstream release",
   "remit": false,
